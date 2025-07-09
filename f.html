@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-image: linear-gradient(to right top, #06202b, #062f3c, #043f4c, #01505c, #00626b, #0f7278, #1e8285, #2c9392, #40a6a1, #53bab1, #66cec0, #7ae2cf);
+    }
+
+    form {
+        width: 300px;
+    }
+
+    .logo {
+        font-size: 60px;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+        background: transparent;
+        border: none;
+    }
+
+    .check {
+        width: 10px;
+    }
+
+    .parent {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .i {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 20px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .i i {
+        padding-right: 20px;
+        ;
+    }
+
+    .red {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .red a {
+        color: white;
+        text-decoration: none;
+        color: #06202B;
+    }
+
+    .red a:hover {
+        text-decoration: underline;
+    }
+
+    .check {
+        height: 12px;
+        width: 12px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+        color: white;
+        padding: 12px 12px;
+        background-color: #06202B;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+
+    button:hover {
+        background-color: #06202B;
+        cursor: pointer;
+    }
+
+    .divider {
+        width: 100%;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+        font-size: 14px;
+    }
+
+    .divider::after,
+    .divider::before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background-color: white;
+        border: 2px solod black;
+        margin: 0 10px;
+        
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        color: white;
+        gap: 15px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .sign {
+        color: white;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+        gap: 10px;
+    }
+
+    .sign a {
+        color: #06202B;
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="logo"><i class="fa-brands fa-slack"></i></div>
+        <h2>Account Login</h2>
+        <form>
+            <div class="parent">
+                <div class="i">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="name" placeholder="Username or Email Address"><br>
+                </div>
+                <div class="i">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="pass" placeholder="Password"><br>
+                </div>
+                <div class="red">
+                    <div><input class="check" type="checkbox"><label>Remember Me</label><br></div>
+                    <a href="">Forget Password?</a>
+                </div>
+                <button>Login</button>
+                <div class="divider"><span>Or login with</span></div>
+                <div class="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google"></i>
+                </div>
+                <div class="sign">Don't have an account?
+                    <a href="">Sign Up</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

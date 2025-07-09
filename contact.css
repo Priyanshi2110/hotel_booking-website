@@ -1,0 +1,214 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+.background img{
+   height: 100vh;
+   width: 100vw;
+}
+ .main nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 20px;
+     height: 40px;
+     background-color: #06202B;
+ }
+
+ .leftside {
+     display: flex;
+     gap: 40px;
+     justify-content: center;
+     align-items: center;
+     font-size: 30px;
+ }
+ .logo{
+    display: flex;
+ }
+
+ .leftside h2 {
+     color: white;
+ }
+
+ .leftside img {
+     height: 50px;
+     width: 50px;
+ }
+
+ .searchbar {
+    display: flex;
+    align-items: center;
+     border: 1px solid black;
+     background-color: white;
+     height: 35px;
+     padding: 5px 10px;
+     margin-bottom: 20px;
+     border-radius: 25px;
+ }
+
+ .search {
+     border: none;
+     background: transparent;
+     outline: none;
+     width: 120px;
+ }
+ i {
+     color: #06202B;
+     font-size: 30px;
+ }
+ .choose{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .choose select{
+    height: 30px;
+    width: 80px;
+ }
+ .rightside{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ .flagicon{
+    height: 20px;
+     width: 30px;
+ }
+ .Login{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+ }
+ .Login select{
+    height: 30px;
+    width: 180px;
+    background-color: #077A7D;
+    color: white;
+ }
+ button{
+    height: 30px;
+    width: 40px;
+    background-color: #077A7D;
+    color: white;
+ }
+ .login button{
+     padding: 5px 10px;
+    border-radius: 5px;
+    
+    border: none;
+    cursor: pointer;
+    
+ }
+ .manage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .manage h4{
+    color: white;
+ }
+ .manage i {
+     color: white;
+     font-size: 24px;
+ }
+ .about{
+   color: white;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+ }
+ .about h4:hover{
+   cursor: pointer;
+   box-shadow: 1px 1px 10px whitesmoke; 
+ }
+ .link{
+   text-decoration: none;
+    color: white;
+ }
+
+ .box {
+     height: 70vh;
+     background-color: #044648;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+ }
+ .head{
+    margin-top: 0;
+    padding-top: 5px;
+    padding-left: 20px;
+ }
+
+ .head h2 {
+     color: white;
+     font-size: 35px;
+ }
+
+ .head h6 {
+     color: white;
+     font-size: 15px;
+ }
+
+form{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+ form h5 {
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ form input {
+     height: 4vh;
+     width: 40vw;
+     padding-left: 10px;
+     border-radius: 5px;
+ }
+
+ .Message {
+     height: 18vh;
+ }
+
+ .submit {
+    display: flex;
+    height: 5vh;
+     width: 10vw;
+     text-align: center;
+     background-color: #06202B;
+     color: whitesmoke;
+     margin-top: 10px;
+ }
+
+ .submit:hover {
+     height: 6vh;
+     width: 12vw;
+     box-shadow: 2px 2px 10px whitesmoke;
+ }
+
+ .boxx {
+     height: 20vh;
+     background-color: rgb(120, 119, 119);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     gap: 50px;
+ }
+
+ .content i {
+     font-size: 40px;
+     padding-bottom: 10px;
+ }
+
+ .foot {
+     background-color: rgb(55, 54, 54);
+     height: 10vh;
+     width: 100vw;
+ }
+
+ .foot h4 {
+     text-align: center;
+     padding-top: 25px;
+ }

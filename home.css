@@ -1,0 +1,226 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+.background img{
+   height: 100vh;
+   width: 100vw;
+}
+ .main nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 20px;
+     height: 40px;
+     background-color: #06202B;
+ }
+
+ .leftside {
+     display: flex;
+     gap: 40px;
+     align-items: center;
+     font-size: 30px;
+ }
+ .logo{
+    display: flex;
+ }
+
+ .leftside h2 {
+     color: white;
+ }
+
+ .leftside img {
+     height: 50px;
+     width: 50px;
+ }
+
+ .searchbar {
+    display: flex;
+    align-items: center;
+     border: 1px solid black;
+     background-color: white;
+     height: 35px;
+     padding: 5px 10px;
+     border-radius: 25px;
+ }
+
+ .search {
+     border: none;
+     background: transparent;
+     outline: none;
+     width: 120px;
+ }
+ i {
+     color: #06202B;
+     font-size: 30px;
+ }
+ .choose{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .choose select{
+    height: 30px;
+    width: 80px;
+ }
+ .rightside{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ .flagicon{
+    height: 20px;
+     width: 30px;
+ }
+ .Login{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+ }
+ .Login select{
+    height: 30px;
+    width: 180px;
+    background-color: #077A7D;
+    color: white;
+ }
+ button{
+    height: 30px;
+    width: 40px;
+    background-color: #077A7D;
+    color: white;
+ }
+ .login button{
+     padding: 5px 10px;
+    border-radius: 5px;
+    
+    border: none;
+    cursor: pointer;
+    
+ }
+ .manage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .manage h4{
+    color: white;
+ }
+ .manage i {
+     color: white;
+     font-size: 24px;
+ }
+ .about{
+   color: white;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+ }
+ .about h4:hover{
+   cursor: pointer;
+   box-shadow: 1px 1px 10px whitesmoke; 
+ }
+ .link{
+   text-decoration: none;
+    color: white;
+ }
+ .Center{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+ }
+ .Center h1 {
+   color: #06202B;
+   font-size: 50px;
+ }
+ .lowertext{
+   font-size: 50px;
+ }
+ .centerbutton{
+   height: 40px;
+   width: 80px;
+   margin-top: 20px;
+   margin-left: 50%;
+   border-radius: 5px;
+ }
+.centerbutton:hover{
+   cursor: pointer;
+   height: 45px;
+   width: 90px;
+   box-shadow: 1px 1px 10px black;
+}
+.Lowerpage{
+   display: flex;
+   gap: 1px;
+}
+.Lowerpage img{
+   height: 60vh;
+   width: 50vw;
+}
+.info{
+   background-color:#06202B;
+   height: 60vh;
+   width: 50vw;
+}
+.info h2{
+   color: white;
+   text-align: center;
+   padding-top: 5px;
+   font-size: 30px;
+}
+.info p{
+   color: white;
+   text-align: center;
+   padding-top: 8px;
+   font-size: 20px;
+}
+.bottom{
+   display: flex;
+   gap: 1px;
+}
+.box1{
+   height: 40vh;
+   width: 75vh;
+   background-color: #077A7D;
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+}
+.box2{
+   height: 40vh;
+   width: 75vh;
+   background-color:#06202B;
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+}
+.box3{
+   height: 40vh;
+   width: 75vh;
+   background-color: #077A7D;
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+}
+.box1 h4,.box2 h4,.box3 h4{
+   font-size: 25px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+.box1 p,.box2 p,.box3 p{
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.box1 i,.box2 i,.box3 i{
+   font-size: 35px;
+   color: white;
+}
+.foot{
+   background-color: rgb(55, 54, 54);
+   height: 10vh;
+   width: 100vw;
+}
+.foot h4{
+   text-align: center;
+   padding-top: 25px;
+}
